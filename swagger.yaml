@@ -1,5 +1,29 @@
 swagger: '2.0'
 
+
+schemes: 
+  - http
+  - https
+  
+host: localhost:8085
+basePath: /batybank-api/v1 
+
+info:
+  version: 1.0.0
+  title: BitBank Api
+  description: Administra a movimentação bancária do correntista e controla   acesso através do cpf e senha.
+  termsOfService: http://localhost:8085/batybank-api/v1/termo-uso
+  contact:
+    name: Suporte
+    url: http://localhost:8085/batybank-api/v1/suporte
+    email: suporte@bytebanckapi.com
+  
+
+
+
+
+
+
 paths:
   '/cliente':
     post:
